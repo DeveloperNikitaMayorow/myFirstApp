@@ -2,17 +2,13 @@
    alert("Привет, меня зовут " + name + " и это моя первая программа!");
 
     function showSkills(){
-   	let skills = [
-    "HTML",
-    "CSS",
-    "JavaScript"
-   	];
-   	for (let i = 0; i < skills.lenght; i++) {
+   	let skills = ["HTML","CSS","JavaScript"];
+
+   	for (let i = 0; i < skills.length; i++) {
    		document.write("Я владею " + skills[i] + "<br>"); 
    	}
    }
    showSkills();
-
 
    function checkAge() {
     let age = prompt("Сколько вам лет?");
@@ -31,5 +27,4 @@
    calcPow(4)
 
 }
-
 myFirstApp("Nikita")
